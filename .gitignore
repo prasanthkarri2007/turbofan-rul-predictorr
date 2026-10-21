@@ -1,0 +1,26 @@
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated evaluation outputs
+data/processed/model_comparison.csv
+data/processed/gru_rul_predictions.csv
